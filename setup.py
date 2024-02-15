@@ -145,15 +145,15 @@ if __name__ == '__main__':
 
     write_version_py()
     setup(
-        name='basicsr',
+        name='new_basicsr',
         version=get_version(),
-        description='Open Source Image and Video Super-Resolution Toolbox',
+        description='This project was forked from https://github.com/XPixelGroup/BasicSR. Seems like it is not maintained anymore. I will try to maintain it and add new features. I will also try to keep it up to date with the latest PyTorch versions',
         long_description=readme(),
         long_description_content_type='text/markdown',
-        author='Xintao Wang',
-        author_email='xintao.wang@outlook.com',
+        author='Minas',
+        author_email='minas.fakhori4@gmail.com',
         keywords='computer vision, restoration, super resolution',
-        url='https://github.com/xinntao/BasicSR',
+        url='https://github.com/MinasFakhori/BasicSR',
         include_package_data=True,
         packages=find_packages(exclude=('options', 'datasets', 'experiments', 'results', 'tb_logger', 'wandb')),
         classifiers=[
